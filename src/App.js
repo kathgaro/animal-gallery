@@ -1,17 +1,25 @@
 import React from 'react';
 import './App.css';
+
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/Navbar/Navbar';
 
+import CountFunction from './components/CountFunction/CountFunction';
+
 function App() {
+  
   return (
     <div>
       <header >
-        <NavBar />
-          <h1
-          onClick={() => console.log('Hola! Hiciste un clic en el titulo')}
-        >Proyecto al rescate</h1>
+        <NavBar /> 
+          <h1>Proyecto al rescate</h1>
       </header>
+      
+      <CountFunction 
+        color="purple" 
+        
+        />
     </div>
   );
 }

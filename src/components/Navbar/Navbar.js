@@ -21,4 +21,3 @@ function NavbarBoots() {
 }
 
 export default NavbarBoots;
-
